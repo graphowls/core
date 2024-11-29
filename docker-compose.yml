@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  # backend:
+  #   container_name: "owl_backend"
+  #   tty: true
+  #   env_file:
+  #     - .env.alpha
+
+  ui:
+    container_name: "owl_ui"
+    image: node:18.18.2-alpine3.18
+    tty: true
+    command: sh -c "cd /app/ && yarn && yarn ui:dev"
+    env_file:
+      - .env.alpha
+    volumes:
+      - ../frontend/:/app/
+    ports:
+      - "${FRONTEND_PORT-3000}:3000"
+
+  casdoor:
+    container_name: "owl_casdoor"
+    image: casbin/casdoor:latest
+    restart: on-failure
+    depends_on:
+      - backend
+    links:
+      - backend
+    ports:
+      - 45910:45910
+    volumes:
+      - ./cfg/conf:/conf
+      - ./cfg/init_data.json:/init_data.json
+
+  db:
+    container_name: "owl_db"
+    image: "${POSTGRES_IMAGE-postgres:15.4}"
+    volumes:
+      - "owl-db-data:${PGDATA-/var/lib/postgresql/data/pgdata}"
+    env_file:
+      - .env.alpha
+    ports:
+      - "${POSTGRES_PORT-55432}:5432"
+
+volumes:
+  owl-db-data:
