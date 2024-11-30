@@ -36,7 +36,7 @@
   [2024-01-09 20-55.webm](https://github.com/jerlendds/graphowls/assets/29207058/fb07fa95-30af-45aa-a75b-2fa1473bc37b)
 
   ⚠️ **Searching for contributors**, please contact me on the **[forum (work-in-progress)](https://forum.graphowls.com)**
-    or on  the **[discord](https://discord.gg/gsbbYHA3K3)** ⚠️
+    or on  the **[discord](https://discord.gg/b8vW4J4skv)** ⚠️
 
   To get started please see [CONTRIBUTING.md](./.github/CONTRIBUTING.md), and [CONTRIBUTOR_AGREEMENT.md](./.github/CONTRIBUTOR_AGREEMENT.md) to agree with the AGPLv3
 
