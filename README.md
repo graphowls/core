@@ -5,7 +5,6 @@
 <!-- [![Total Downloads](https://static.pepy.tech/badge/graphowls)](https://pepy.tech/project/graphowls)
 [![Downloads](https://static.pepy.tech/badge/graphowls/week)](https://pepy.tech/project/graphowls) -->
 
-
 <br />
 
 <p>
@@ -172,39 +171,12 @@ Contributions are what make the open source community such an amazing place to l
 
 *Note: If you're working on the `develop` branch you want to ensure the `graphowls/plugins` submodule is also on the develop branch.*
 
-## [↑](#introducing-graphowls)License
-
-We are using the [GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)
-
-[Why the AGPLv3?](https://ploum.net/2023-06-19-more-rms.html)
-<!-- 
-> In the early eighties, RMS realised that software was transformed from "a way to use a machine" to a product or a commodity. He foresaw that this would put an end to collective intelligence and to knowledge sharing.
-> For the last 30 years, businesses and proponents of Open Source, including Linus Torvalds, have been decrying the GPL because of the essential right of "doing business" aka "privatising the common". Microsoft, through Github, Google and Apple pushed for MIT/BSD licensed software as the open source standard.
-
-> Our freedoms were taken away by proprietary software which is mostly coded by ourselves. For free. We spent our free time developing, debugging, testing software before handing them to corporations... Without Non-copyleft Open Source, there would be no proprietary MacOS, OSX nor Android. There would be no Facebook, no Amazon. We created all the components. -->
-
-### The four freedoms and one obligation of free software
-
-- The right to use the software at your own discretion
-- The right to study the software
-- The right to modify the software
-- The right to redistribute the software, including with modifications
-- The obligation to keep those four rights, effectively keeping the software in the commons.
-
-> We need to realize that any software without that last obligation will, sooner or later, become an oppression tool against ourselves. And that maintaining the commons is not only about software. It’s about everything we are as a society and everything we are losing against individual greed.
-<!-- 
-*Note: the [GraphOwls PyPi package](https://github.com/graphowls/plugins) is MIT licensed. We understand some individuals and businesses may not want to share their plugins developed in-house.* -->
-
-
-## [↑](#introducing-graphowls)Contact
-
 [Open an issue](https://github.com/graphowls/core/issues/new?assignees=ipsax&labels=Type%3A+Suggestion&projects=&template=feature.md&title=%5BFEATURE+REQUEST%5D) if you need to get in touch with me or send an email to <a href="mailto:support@graphowls.com">support@graphowls.com</a>.
 
 ## [↑](#introducing-graphowls)Sponsor GraphOwls
 
 Help us keep the project free and maintained. Sponsoring the project makes it possible for us to cover our server costs and allows us to make investments into new areas of development.
 Depending on your level of sponsorship you may get unique benefits. [Sponsor us on Liberapay](https://liberapay.com/ipsax/)
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/graphowls/core.svg?style=for-the-badge
 [contributors-url]: https://github.com/graphowls/core/graphs/contributors
