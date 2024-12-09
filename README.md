@@ -9,7 +9,7 @@
 
 <p>
   <a href="https://github.com/graphowls/core">
-    <img src="./cfg/watermark-dark.svg" height="130px" alt="GraphOwls Watermark">
+    <img src="./cfg/watermark.svg" height="130px" alt="GraphOwls Watermark">
   </a>
 
 > *I have no data yet. It is a capital mistake to theorize before one has data. Insensibly
